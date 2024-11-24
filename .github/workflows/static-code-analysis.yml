@@ -1,0 +1,12 @@
+name: Static Code Analysis
+
+# Runs for PRs opened for any branch, and pushes to the dev branch.
+on:
+  pull_request:
+  push:
+    branches:
+      - dev
+
+jobs:
+  powershell-static-code-analysis:
+    uses: Lombiq/PowerShell-Analyzers/.github/workflows/static-code-analysis.yml@dev

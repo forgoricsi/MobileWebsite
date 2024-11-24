@@ -1,0 +1,4 @@
+enableextensions
+notlike
+Rekt
+setlocal
